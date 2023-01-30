@@ -26,11 +26,6 @@ def index():
             resolution = myLine.strip()
     return cap + '</br>' + mem + '</br>' + chip + '</br>' + serial + '</br>' + model_id + '</br>' + resolution
 
-
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
-
-
 #send data from client to server########
 
 
